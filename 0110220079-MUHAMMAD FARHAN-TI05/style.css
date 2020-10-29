@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header{
+background-color: rgb(74, 131, 236);
+height: 600px;
+clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.container{
+margin-left: 50px;
+margin-right: 50px;
+}
+.logo img{
+    width: 100px;
+}
+h1{
+    color: cornsilk;
+    letter-spacing: -1px;
+    font-size: 35px;
+    margin-bottom: -15px;
+}
+h3{
+    color: cornsilk;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+.tombol{
+    background-color: rgb(224, 247, 22);
+    color: darkviolet;
+    width: max-content;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+.gambar-samping{
+    display: flex;
+    width: 250;
+}
+.gambar-samping img{
+    width: 400px;
+    margin-top: -250px;
+    margin-left: auto;
+    transform: scaleX(-1);
+}
+.konten{
+    display: flex;
+    margin-top: 50px;
+}
+.konten-1 h2{
+    color: #364095;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+.konten-1 h4{
+    color: #393954;
+    font-size: 20px;
+}
+.konten-2 video{
+    width: 450px;
+border-radius: 15px;
+box-shadow: 0 0 7px grey;
+}
+.merch{
+    display: flex;
+    margin-top: 50px;
+}
+.merch-1 h1{
+    color: #3e4095;
+    font-size: 35px;
+}
+.merch-1 h2 {
+    color: #393954;
+    font-size: 25px;
+}
+.merch-1 .tombol-beli{
+    background-color: #3e4095;
+    color: #f2f219;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow:  0 0 10px grey;
+}
+.merch-1 .wa{
+    background-color: #f2f219;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #3e4095;
+    font-weight: bolder;
+    box-shadow:  0 0 5px grey;
+}
+.merch-2 img{
+    width: 400px;
+    margin-left: 80px;
+}
+.merch-1{
+    width: 50%;
+}
+.merch-2{
+    width: 50%;
+}
